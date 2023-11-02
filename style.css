@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+}
+body{
+    background-image: url(https://wou.edu/westernhowl/files/2023/02/lana.jpg);
+    background-size: 110%, cover;
+   
+    background-repeat: no-repeat;
+   
+   
+   
+}
+.container {
+    position: relative;
+  }
+ 
+  main {
+    background-color: rgba(0, 0, 0, 0.5); /* 0.5 é a opacidade do preto, você pode ajustar conforme necessário */
+    color: white;
+    padding: 165px;
+ 
+    z-index: 1;
+  }
+nav{
+    background-color: black;
+    padding: 20px;
+    border: 1px solid ;
+    display: flex;
+    z-index: 2;
+   
+}
+nav h1{
+    color: white;
+    font-size: 25px;
+    margin-left: 2%;
+}
+.sup{
+    color: #836FFF;
+    text-decoration: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left:10%;
+    margin-top: 3%;
+     
+ 
+}
+nav button{
+    width: 12vw;
+    height: 7vh;
+    border-radius: 25px;
+    border: none;
+    background-color: #836FFF;
+    color: white;
+    font-size: 20px;
+   margin-top: -5%;
+}
+.ancoras{
+    justify-content: flex-end; /* Alinha os elementos à direita */
+    margin-left: 60%;
+    display: flex;
+}
+.container1 h1{
+    align-items: center;
+    justify-content: center;
+    margin-left:13%;
+    color: white;
+    font-size: 80px;
+z-index: 2;
+ 
+}
+footer{
+    background-color: black;
+    padding: 80px;
+margin-top: -2%;
+color: white;
+display: flex;
+ 
+}
+ul{
+    margin-left: 15%;
+    font-size: 15px;
+  
+    text-decoration: none;
+}
